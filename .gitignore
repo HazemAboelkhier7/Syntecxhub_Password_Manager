@@ -1,0 +1,17 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Encrypted vault and temporary files
+vault.json
+vault.tmp
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
